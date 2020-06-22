@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'efertbot'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5d457832d771438da3001b2eeb564bd1 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b7fddbb833a54b07b0a51d5a90b8ceb3 }}
         package: .
