@@ -533,7 +533,7 @@ module.exports = function({
             contentMessage.indexOf(`${prefix}adduser`) == 0 &&
             admins.includes(senderID)
         ) {
-            return api.sendMessage("đã kick!", threadID);
+            return api.sendMessage("Lỗi rồi má!", threadID);
         }
 
         //kick user
